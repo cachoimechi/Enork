@@ -87,6 +87,10 @@ Version: 1.0
 		box-shadow: 0 0 5px 5px #000;
 		}
 		
+	.icon {
+		float: right;
+		}
+		
 	h3.facebook {
 		background: #0b2b61;
 		background: -moz-linear-gradient(top, #0b2b61, #1153c0);
@@ -243,6 +247,7 @@ Version: 1.0
 		    rgb(214,214,214) 11%,
 		    rgb(255,255,255) 55%
 		);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFFFFF', EndColorStr='#AAAAAA');
 		}
 	
 	p {
@@ -309,6 +314,7 @@ Version: 1.0
 
 	#footer {
 		clear: both;
+		background: black;
 		background-image: -webkit-gradient(
 		    linear,
 		    left bottom,
@@ -321,6 +327,7 @@ Version: 1.0
 		    rgb(46,46,46) 25%,
 		    rgb(84,84,84) 70%
 		);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#444444', EndColorStr='#000000');
 		-moz-box-shadow: 0 0 5px 5px #000;
 		-webkit-box-shadow: 0 0 5px 5px#000;
 		box-shadow: 0 0 5px 5px #000;
